@@ -5,13 +5,13 @@ There's both a bash and a batch script for windows although I would say that the
 
 ## Usage:
 ### Linux
-´´´console
+```console
 $ ./collect_directory.sh <specify directory>
-´´´
+```
 
 ### Windows
-´´´console
+```console
 > .\collect_directory.bat <specity directory>
-´´´
+```
 
 If you are using this batch script avoid file/directory namings with spaces and don't use full file path! 
