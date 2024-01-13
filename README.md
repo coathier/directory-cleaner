@@ -3,7 +3,28 @@ A shell script that moves all files from subdirectories of a specified parent fo
 
 There's a bash for Linux and a batch script for Windows although I would say that the batch (Windows) script is highly unpredictable regarding file namings and directory paths. 
 
-## Usage:
+## Example
+Here's an example of what this script does. 
+
+### From this:
+> Parent Directory
+> ├─Hello.md
+> │
+> ├─── Red
+> │    │
+> │    └─── Dragon
+> │         └─Master.txt
+> │
+> └─── Blue
+>      └─Dragon.png
+
+### To this:
+> Parent Directory
+> ├─Hello.md
+> ├─Red_Dragon_Master.txt
+> └─Blue_Dragon.png 
+
+## Usage
 ### Linux
 ```console
 $ ./collect_directory.sh <specify directory>
